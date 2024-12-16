@@ -1,6 +1,9 @@
 
 import './App.css'
 import About from './components/About'
+import Attorneys from './components/Attorneys'
+import Case from './components/Case'
+import Form from './components/Form'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Value from './components/Value'
@@ -13,6 +16,9 @@ function App() {
       <Home />
       <About />
       <Value />
+      <Case />
+      <Attorneys />
+      <Form />
     </>
   )
 }
