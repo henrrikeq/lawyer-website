@@ -26,14 +26,14 @@ const Value = () => {
       {/* Text Section */}
       <div className="w-[38%] px-4 m-8 ">
         <p className="text-[#AFA939] text-[16px] font-extrabold mb-3">
-          Welcome to Legalcare
+          Welcome to Pro-Attorney
         </p>
-        <p className="text-[1.8rem] font-bold mb-5">
+        <p className="text-[1.8rem] font-bold mb-5 text-[#494949]">
           We Always Fight For Your Justice to Win
         </p>
 
         {/* Buttons */}
-        <div className="space-x-2 my-4">
+        <div className="space-x-2 my-4 text-[#494949]">
           <button
             className={`border-[0.5px] px-7 py-2 rounded font-bold ${
               activeButton === "mission" ? "bg-[#AFA939] border-[#AFA939] text-white" : ""

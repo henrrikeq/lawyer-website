@@ -26,7 +26,7 @@ const About = () => {
                 {/* Left Section */}
                 <div className='w-full md:w-1/3 pl-48 pt-12'>
                     <p className='text-[#AFA939] text-sm font-extrabold'>Services</p>
-                    <p className='text-2xl font-bold mt-2'>Why Select Us?</p>
+                    <p className='text-2xl font-bold mt-2 text-[#494949]'>Why Select Us?</p>
                     <p className='text-base mt-5 text-gray-400 font-semibold w-11/12'>
                         A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your.
                     </p>
@@ -41,7 +41,7 @@ const About = () => {
                     <div className='border-2 bg-[#AFA939] border-[#AFA939] h-32 w-[56vw]'></div>
 
                     {/* Card Section */}
-                    <div className='flex flex-wrap gap-2'>
+                    <div className='flex flex-wrap gap-2 text-[#494949]'>
                         {cardData.map((card, index) => (
                             <div key={index} className='flex flex-col items-center border-2 h-80 w-56 bg-white border-white shadow-md rounded-md -mt-16 ml-5 p-4'>
                                 <p className='text-[30px] mt-4 border-2 px-5 py-5 bg-[#F2F2F2] border-[#F2F2F2] rounded-full font-bold mb-3 text-[#AFA939]'>

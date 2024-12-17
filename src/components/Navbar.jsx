@@ -27,7 +27,7 @@ const Navbar = () => {
             : "relative bg-transparent text-white translate-y-0"
         }`}
       >
-        <p className="flex text-[18px] font-bold ml-40">LEGALCARE</p>
+        <p className="flex text-[18px] font-bold ml-40">PRO-ATTORNEY</p>
         <div className="flex gap-10 text-[15px] font-semibold ml-14">
           <p className="hover:text-[#AFA939]">Home</p>
           <p className="hover:text-[#AFA939]">About</p>

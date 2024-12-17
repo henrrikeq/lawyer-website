@@ -2,7 +2,9 @@
 import './App.css'
 import About from './components/About'
 import Attorneys from './components/Attorneys'
+import Blog from './components/Blog'
 import Case from './components/Case'
+import Footer from './components/Footer'
 import Form from './components/Form'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
@@ -19,6 +21,8 @@ function App() {
       <Case />
       <Attorneys />
       <Form />
+      {/* <Blog /> */}
+      <Footer />
     </>
   )
 }
