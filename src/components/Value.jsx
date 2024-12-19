@@ -13,7 +13,7 @@ const Value = () => {
   const [activeButton, setActiveButton] = useState("mission"); // Tracks which button is active
 
   return (
-    <div className="flex flex-col md:flex-row h-[120vh]">
+    <div className="flex flex-col md:flex-row h-[120vh] mt-40">
       {/* Image Section */}
       <div className="flex justify-center lg:justify-start w-full lg:w-auto ml-44">
         <img

@@ -25,7 +25,7 @@ const Form = () => {
     emailjs
       .send(
         "service_esan38h", // Replace with your EmailJS service ID
-        "template_hvfrced", // Replace with your EmailJS template ID
+        "template_fe2vglb", // Replace with your EmailJS template ID
         formData,
         "wlUcdSUfjn5yn-Gsn" // Replace with your EmailJS public key
       )

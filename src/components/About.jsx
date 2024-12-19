@@ -1,5 +1,6 @@
 import React from 'react';
 import { PiBuildingOffice } from "react-icons/pi";
+import Value from './Value';
 
 const About = () => {
     const cardData = [
@@ -56,6 +57,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <Value />
         </div>
     );
 };
